@@ -1,5 +1,9 @@
 # Covid19-MAR
 The current code helps to fit and estimate the cumulative number of Covid-19 in Morocco using data published by the government.
+Data fitted using the logistic function with 4 parameters:
+
+                              a/(b+exp(c*x+d))
+The 5-sigma and 2-sigma intervals are plotted, and estimation for the next 4 days with its uncertainties  
 # Data 
 There are two files of data :
   - coronaMar.csv : contain the same data published by the government day-by-day
@@ -8,4 +12,4 @@ There are two files of data :
 The code run inside the CERN Root Data Analysis Framework https://root.cern.ch/ using the following command :
  - root -l plot.cxx
  
-# Enjoy
+# Enjoy and Stay @ Home 
