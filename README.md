@@ -1,8 +1,8 @@
 # Covid19-MAR
 The current code helps to fit and estimate the cumulative number of Covid-19 in Morocco using data published by the government.
-Data fitted using the logistic function with 4 parameters:
+Data fitted using function with 4 parameters:
 
-                              a/(b+exp(c*x+d))
+                              a*exp(b*x+c) + d*x
 The 5-sigma and 2-sigma intervals are plotted, and estimation for the next 4 days with its uncertainties  
 # Data 
 There are two files of data :
